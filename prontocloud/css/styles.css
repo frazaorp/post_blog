@@ -11,14 +11,18 @@ body{
     
 }
 
-.main-container{
-    
-    max-width: 1198px;
+.main-container{    
+    display: block;
     margin: 0 auto ;
+    width: 100vw;
     padding: 20px;
+   
 }
 
-
+.container{
+    padding:20px;
+    width: 100%; 
+}
 
 header{
     background-color: #fff;
@@ -26,8 +30,10 @@ header{
     float: left;
     padding: 20px;
     width: 100%;
-
+    border-bottom: 1px solid #254159; 
 }
+
+
 
 h1{
     font-size: 2.4rem;
@@ -79,6 +85,7 @@ ol li {
 
 }
 section{
+    background-color: #fff;
     font-size: 1.5rem; /* equivalente a 15px*/
     display: block;
     float: left;
@@ -96,10 +103,23 @@ section nav{
 
 nav li {
     background-color: #efefef;
-    margin: 5px 0 ;
+    margin: 1px 20px 1px 0;
     padding: 10px;
 }
+nav li:hover{
+    background-color: #dfdfdf;
 
+}
+
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+
+nav a:hover{
+    color: #385874;
+
+}
 section article{
 
     display: block;
@@ -115,4 +135,15 @@ footer{
     float: left;
     padding: 20px;
     width:100%;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 1.4rem;
+
+}
+
+footer small{
+    font-size: 80%;
+    display: block;
 }
