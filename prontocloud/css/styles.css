@@ -12,16 +12,19 @@ body{
 }
 
 .main-container{    
-    display: block;
-    margin: 0 auto ;
+    display: block;   
     width: 100vw;
-    padding: 20px;
+    margin: 0 auto ;
    
 }
 
 .container{
-    padding:20px;
-    width: 100%; 
+    display: block;
+    float: left;
+    padding: 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    max-width: 1198px;
 }
 
 header{
@@ -53,13 +56,12 @@ h3{
     font-size: 1.6rem;
     color: #254159;
     margin-bottom: 20px;
-
-
+    padding-top: 10px;
 }
 
 h4{
     font-size: 1.5rem  ;
-    color: #263a4d;
+    color: #385874;
     margin-bottom: 10px;
     padding-top: 10px;
 
@@ -68,7 +70,7 @@ h4{
 p{
     margin-bottom: 10px;
     line-height: 1.4;
-    color: #123 ;
+    color: #333 ;
 
 }
 
@@ -130,7 +132,6 @@ section article{
 
 footer{
     background-color: #254159 ;
-    color: #ffffff;
     display:block;
     float: left;
     padding: 20px;
