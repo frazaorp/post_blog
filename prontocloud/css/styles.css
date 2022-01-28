@@ -74,6 +74,11 @@ p{
 
 }
 
+img{
+    max-width: 100%;
+    height: auto;   
+}
+
 ol {
 
     margin-left: 30px;
@@ -148,3 +153,12 @@ footer small{
     font-size: 80%;
     display: block;
 }
+
+#tenho-interesse{
+    background-color: #cdd7e0;
+}
+
+#tenho-interesse form, .cog-form__content{
+    background-color: #cdd7e0 !important;
+}
+
