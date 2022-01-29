@@ -162,3 +162,16 @@ footer small{
     background-color: #cdd7e0 !important;
 }
 
+
+@media(max-width:425px){
+    section nav,
+    section article{
+        width: 100%;
+    }
+
+
+    .container{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
